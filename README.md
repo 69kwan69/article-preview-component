@@ -14,7 +14,6 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/article-preview-component-mBhV-19Fw3)
 - Live Site URL: [Live Site](https://69kwan69.github.io/article-preview-component/)
 
 ## My process
@@ -51,7 +50,9 @@ By far, this is the most confusing project I've ever encountered. The reason was
   - Using ```<i>``` tag inside a div (HTML).
   - Using animation instead of transition (CSS).
   - DOM target and Propagation (JS).
+
 These things have caused me so many troubles which led to slowing my project process. Instead of wrapping the image inside a div, ```object-fit``` makes it much easier to control the image itself. Using Fontawesome with ```<i>``` tag seems reasonable enough but it also increases the complexity in HTML markups and the DOM control. The same applies to animating, because for the most of the time I want a smooth movement, therefore transition itself pulls it off just fine.
+
 Of course, all of the things mentioned above isn't wrongdoing, but in my case, it's such a pain to deal with, especially when developing such a small project.
 
 ### Continued development
